@@ -1,0 +1,11 @@
+training:
+  epochs: 10
+  batch_size: 32
+  learning_rate: 0.001
+
+model:
+  type: cnn
+
+paths:
+  model_output: "models/model.h5"
+  logs: "logs/"
