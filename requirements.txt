@@ -1,0 +1,24 @@
+# Core ML
+tensorflow-cpu
+numpy
+scikit-learn
+tensorflow
+
+# API
+fastapi
+uvicorn
+pydantic
+python-multipart
+
+# MLOps
+mlflow
+
+# Config / Utils
+pyyaml
+python-dotenv
+
+# Testing
+pytest
+
+# Lint
+black
