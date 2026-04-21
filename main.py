@@ -8,7 +8,7 @@ def main():
 
     logger = get_logger("mnist_training")
 
-    run_pipeline(config, logger)
+    run_pipeline(config)
 
 
 if __name__ == "__main__":
