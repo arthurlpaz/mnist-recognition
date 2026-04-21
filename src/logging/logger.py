@@ -1,4 +1,5 @@
 import logging
+import os  # Import the os module
 
 
 def get_logger(name: str):
@@ -13,7 +14,11 @@ def get_logger(name: str):
     console = logging.StreamHandler()
     console.setFormatter(formatter)
 
-    file_handler = logging.FileHandler("logs/app.log")
+    log_dir = "logs"
+    if not os.path.exists(log_dir):
+        os.makedirs(log_dir)
+
+    file_handler = logging.FileHandler(f"{log_dir}/app.log")
     file_handler.setFormatter(formatter)
 
     logger.addHandler(console)
