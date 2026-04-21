@@ -7,4 +7,3 @@ def evaluate(model, x_test, y_test):
     y_pred = np.argmax(preds, axis=1)
 
     print(classification_report(y_test, y_pred))
-    print(confusion_matrix(y_test, y_pred))
