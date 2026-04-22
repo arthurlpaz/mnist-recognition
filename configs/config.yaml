@@ -7,5 +7,5 @@ model:
   type: cnn
 
 paths:
-  model_output: "models/model.h5"
+  model_output: "models/model.keras"
   logs: "logs/"

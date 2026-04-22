@@ -3,7 +3,7 @@ from tensorflow.keras.datasets import mnist
 
 from src.models.inference import ModelService
 
-model_service = ModelService("models/model.h5")
+model_service = ModelService("models/model.keras")
 
 
 def run_batch():

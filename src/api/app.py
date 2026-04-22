@@ -6,7 +6,7 @@ from src.monitoring.monitor import ModelMonitor
 
 app = FastAPI()
 
-model_service = ModelService("models/model.h5")
+model_service = ModelService("models/model.keras")
 monitor = ModelMonitor()
 
 
